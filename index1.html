@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Responsive landing page</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="Untitled design (77).png" alt="">
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#specs" class="nav__link">About Us</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Breathing Conditions</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#nodex" class="nav__link">NODex</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#symptoms" class="nav__link">Symptoms</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#assist" class="nav__link">MyAssist</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+        <hr>
+        <main class="main">
+            
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div>
+                        <video width="450" height="370"  autoplay loop controls="false" playsinline class="video">
+                            <source src="productnodex.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                          </video>
+                          
+                    </div>
+                    
+                    <div class="home__data">
+                        <div class="home__header">
+                            <h1 class="home__title">NODex</h1>
+                            <h2 class="home__subtitle">Breath Diagnosis Device</h2>
+                        </div>
+
+                        <div class="home__footer">
+                            <h3 class="home__title-description">Overview</h3>
+                            <p class="home__description">NODex, an AI-enabled COPD diagnostic device, syncs seamlessly with a mobile app for personalized care. It provides swift and accurate diagnoses, analyzes real-time data for tailored recommendations, empowering patients to manage their condition proactively and improve their quality of life.
+                                <br><br>
+                                <span>&#8680;</span> Real-time treatment
+                                <br>
+                                <span>&#8680;</span> AI-enabled
+                            </p>
+                            <a href="#" class="button button--flex">
+                                <span class="button--flex">
+                                    <i class="ri-shopping-bag-line button__icon"></i></i> Coming Soon
+                                </span>
+                                <span class="home__price"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+           
+
+            <section class="specs section grid" id="specs">
+                <h4 class="about">About Medantrik Medtech</h5>
+                <h2 class="section__title section__title-gradient">Who We Are</h2>
+                <p>We're an IIT Kanpur-incubated startup revolutionizing lung care. <br><br><span>&#10003;</span> <b>Goodbye, guesswork:</b> Forget hazy diagnosis. Our personalized technology diagnoses asthma and lung conditions with higher accuracy.<br> <span>&#10003;</span><b>Precision Power:</b> No one-size-fits-all here. We tailor solutions based on your unique lung story. Our smart devices and seamless App work together like a dream team, monitoring your health and providing real-time guidance, anytime, anywhere.<br><span>&#10003;</span><b>Demystifying Conventions:</b> Forget clinic marathons. Manage your lung health from the comfort of your home using our mobile app.</p>
+                <!-- <button class="bt">Read more</button> -->
+                    
+                    <div>
+                        <img src="PORTFOLIO (5).png" alt="" class="specs__img">
+                    </div>
+            </section>
+
+            
+
+            <!-- <section class="discount section">
+                <div class="discount__container container grid">
+                    <div class="discount__animate">
+                        <h2 class="discount__title">Step up your style with every stride.</h2>
+                        <p class="discount__description">Get it now, up to 50% off.</p>
+                        <a href="#" class="button button--flex">
+                            <i class="ri-shopping-bag-line button__icon"></i> Shop Now
+                        </a>
+                    </div>
+
+                    <img src="9.png" alt="" class="discount__img">
+                </div>
+            </section>
+
+            <section class="products section" id="products">
+                <h2 class="section__title section__title-gradient products__line">
+                    Choose <br> Your Style
+                </h2>
+
+                <div class="products__container container grid">
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="4.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Black</h3>
+                            <span class="products__price">$299</span>
+    
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-line button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="5.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">White</h3>
+                            <span class="products__price">$299</span>
+    
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-line button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="6.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Sky Blue</h3>
+                            <span class="products__price">$299</span>
+    
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-line button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="7.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Orange</h3>
+                            <span class="products__price">$299</span>
+    
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-line button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="8.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Dark Blue</h3>
+                            <span class="products__price">$299</span>
+    
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-line button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </section> -->
+        </main>
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-s-line scrollup__icon"></i>
+        </a>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
