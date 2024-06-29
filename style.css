@@ -2244,3 +2244,57 @@ img {
       display:none;
     }
   }
+
+
+
+  /* my changes ->*/
+  .footer .container-ql .list a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+  }
+  .footer .container-ul .list a:hover {
+      color: #ffffff;
+      padding-left: 10px;
+  }
+  .footer .container-socials .list a:hover {
+      color: #ffffff;
+      padding-left: 10px;
+  }
+  @media (min-width: 801px) {
+    footer {
+            padding: 40px;
+        }
+      footer .container-footer{
+          width: 100%;
+          display: grid;
+          grid-template-columns: none;
+          grid-gap: 100px;
+      }
+      footer .container-socials .socials{
+          width: 100%;
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 120px;
+      }
+  }
+  @media (max-width: 800px) {
+    footer{
+        padding: 40px;
+    }
+    footer .container-ql .container-ul .container-socials{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    } 
+  }
+  @media (max-width: 768px) {
+      footer .container-ql .container-ul .container-socials{
+          width: 100%;
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          grid-gap: 20px;
+      }
+  }
+
+/* my changes <-*/
