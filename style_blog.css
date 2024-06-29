@@ -377,7 +377,7 @@ hr{
 
 
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 650px) {
     .inner-hero-banner.story-detail {
         height: 800px;
     }
@@ -453,6 +453,8 @@ span.tag {
 }
 .story-single {
     padding: 50px 0;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .row {
     max-width: 75rem;
@@ -489,7 +491,6 @@ span.tag {
 }
 @media print, screen and (min-width: 40em) {
     .h3, h3 {
-        margin-left:11%;
         font-size: 1.4rem;
     }
 }
@@ -514,6 +515,35 @@ dl, ol, ul {
     max-width: 890px;
     margin: 0 auto;
     margin-bottom: 10px;
+}
+.inner-hero-banner{
+  background-image: url(https://static.vecteezy.com/system/resources/previews/028/529/759/non_2x/environmental-pollution-generative-ai-free-photo.jpeg);
+}
+@media screen and (max-width:650px) {
+  .story-single .rt-reading-time, .story-single p {
+    font-size: 16px;
+  }
+  .story-single .row .columns li {
+    font-size: 16px;
+  }
+  .h3, h3 {
+    font-size: 20px;
+  }
+  /* .top-shadow{
+    display: none;
+  }
+  .inner-hero-banner{
+    background: rgb(252,242,232);
+  }
+  .inner-hero-banner .block-content h1{
+    margin-top: 50px;
+    color: rgb(255, 123, 0);
+  } */
+}
+@media screen and (min-width:1070px) {
+  .h3, h3 {
+    margin-left:20px;
+  }
 }
 
 
