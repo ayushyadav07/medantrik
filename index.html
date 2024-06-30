@@ -8,11 +8,12 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="style.css">
         <title>Responsive landing page</title>
+        
     </head>
     <body>
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">
+                <a href="index.html" class="nav__logo">
                     <img src="Untitled design (77).png" alt="">
                 </a>
 
@@ -38,13 +39,22 @@
                         </li> -->
                     </ul>
 
-                    <div class="nav__close" id="nav-close">
-                        <i class="ri-close-line"></i>
-                    </div>
+                <div class="nav__close" id="nav-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#333"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
                 </div>
-
+            </div>
+                
                 <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-function-line"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#333"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12" />
+                        <line x1="3" y1="6" x2="21" y2="6" />
+                        <line x1="3" y1="18" x2="21" y2="18" />
+                    </svg>
                 </div>
             </nav>
         </header>
@@ -56,7 +66,7 @@
             </div>
             
             <h2>Accurate test results in 30 seconds.</h2>
-            <button class="button">BUY NOW</button>
+            <button class="button home-btn">BUY NOW</button>
             
         </section>
         
@@ -308,34 +318,44 @@
             </div>
         </section>
 
-        <footer class="footer">
-            <div class="container-footer">
-            <div class="section">
-                <div class="logo"><img src="Untitled design (78).png"></div>
-                <div class="one-liner"><i class='bx bxs-map'></i> 402-H DJAC, IIT Kanpur, India<br><i class='bx bxs-phone'></i> +91 8004116503<br><i class='bx bxs-envelope' ></i> info@medantrik.com<br><i class='bx bxs-time-five'></i> 9 AM - 5 PM , Monday - Saturday</div>
-            </div>
-            <div class="container-ql">
-                <div class="footer-col">
-                    <div class="ql"><div class="footer-section-title">Quick Links</div></div>
-                    <div class="list"><a href="/about">About</a><a href="/career">Products</a><a href="/our-technology">Blog</a><a href="/data-privacy">Contact</a></div>
-                    
-                </div>
-            </div>
-            <div class="container-ul">
-                <div class="footer-col">
-                    <div class="ul">Useful links</div>
-                    <div class="list"><a href="/products/uti">Privacy Policy</a><a href="/products/kidney">Terms and Conditions</a><a href="/products/elderly-care">Support</a><a href="/pdf-analyzer">FAQ</a></div>
-                </div>
-            </div>
-            <div class="container-socials">
-                <div class="footer-col"></div>
-                    <div class="socials">Socials</div>
-                    <div class="list"><a href="https://twitter.com/medantrik" class="twitter" style="font-size: 2rem; padding-right: 1rem;"><i class="bx bxl-twitter"></i></a><a href="https://www.facebook.com/medantrik?paipv=0&eav=AfbxoP8Xj7Caua_VzHUxxi-LMhyx5X7Q0Ov7aSxkXY_WZ2vQdE0Ddn3670MSnuQLvEk&_rdr" class="facebook" style="font-size: 2rem; padding-right: 1rem;"><i class="bx bxl-facebook"></i></a><a href="https://www.instagram.com/medantrik/" class="instagram" style="font-size: 2rem; padding-right: 1rem;"><i class="bx bxl-instagram"></i></a><a href="https://www.youtube.com/@medantrik" class="youtube" style="font-size: 2rem; padding-right: 1rem;"><i class="bx bxl-youtube"></i></a><a href="https://www.linkedin.com/company/medantrik/" class="linkedin" style="font-size: 2rem; padding-right: 1rem;"><i class="bx bxl-linkedin"></i></a></div>
-                </div>
-            </div>
-            <div class="copyright"><p style="text-align: center; letter-spacing: 1px;">© Copyright Medantrik. All Rights Reserved.</p></div>
-            </div>
-        </footer>
+                <footer class="footer">
+                    <div class="section location">
+                        <div class="logo"><img src="Untitled design (78).png"></div>
+                        <div class="one-liner"><i class='bx bxs-map'></i> 402-H DJAC, IIT Kanpur, India<br><i class='bx bxs-phone'></i>
+                            +91 8004116503<br><i class='bx bxs-envelope'></i> info@medantrik.com<br><i class='bx bxs-time-five'></i> 9
+                            AM - 5 PM , Monday - Saturday</div>
+                    </div>
+                    <div class="section quick-links container-ql">
+                       
+                            <div class="footer-section-title ql">Quick Links</div>
+                        
+                        <div class="list"><a href="/about">About</a><a href="/career">Products</a><a href="/our-technology">Blog</a><a
+                                href="/data-privacy">Contact</a></div>
+        
+            
+                    </div>
+                    <div class="section useful-links container-ul">
+                        <div class="ul footer-section-title">Useful links</div>
+                        <div class="list"><a href="/products/uti">Privacy Policy</a><a href="/products/kidney">Terms and
+                                Conditions</a><a href="/products/elderly-care">Support</a><a href="/pdf-analyzer">FAQ</a></div>
+                    </div>
+                    <div class="section socials container-socials">
+                        <div class="socials footer-section-title">Socials</div>
+                        <div class="list"><a href="https://twitter.com/medantrik" class="twitter"
+                                style="font-size: 2rem; padding-right: 1rem;"><i class="bx bxl-twitter"></i></a><a
+                                href="https://www.facebook.com/medantrik?paipv=0&eav=AfbxoP8Xj7Caua_VzHUxxi-LMhyx5X7Q0Ov7aSxkXY_WZ2vQdE0Ddn3670MSnuQLvEk&_rdr"
+                                class="facebook" style="font-size: 2rem; padding-right: 1rem;"><i class="bx bxl-facebook"></i></a><a
+                                href="https://www.instagram.com/medantrik/" class="instagram"
+                                style="font-size: 2rem; padding-right: 1rem;"><i class="bx bxl-instagram"></i></a><a
+                                href="https://www.youtube.com/@medantrik" class="youtube"
+                                style="font-size: 2rem; padding-right: 1rem;"><i class="bx bxl-youtube"></i></a><a
+                                href="https://www.linkedin.com/company/medantrik/" class="linkedin"
+                                style="font-size: 2rem; padding-right: 1rem;"><i class="bx bxl-linkedin"></i></a></div>
+                    </div>
+                    <div class="copyright">
+                        <p style="text-align: center; letter-spacing: 1px;">© Copyright Medantrik. All Rights Reserved.</p>
+                    </div>
+                </footer>
 
 
 
@@ -344,5 +364,33 @@
         </a>
         <script src="https://unpkg.com/scrollreveal"></script>
         <script src="script.js"></script>
+
+
+        <script>
+            // JavaScript to handle the navbar toggle
+            const navMenu = document.getElementById('nav-menu');
+            const navToggle = document.getElementById('nav-toggle');
+            const navClose = document.getElementById('nav-close');
+
+            // Show menu
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.add('show-menu');
+            });
+
+            // Hide menu
+            navClose.addEventListener('click', () => {
+                navMenu.classList.remove('show-menu');
+            });
+
+            // Active link switching
+            document.querySelectorAll('.nav__link').forEach(link => {
+                link.addEventListener('click', function () {
+                    document.querySelectorAll('.nav__link').forEach(nav => nav.classList.remove('active-link'));
+                    this.classList.add('active-link');
+                    navMenu.classList.remove('show-menu'); // Close menu on link click
+                });
+            });
+        </script>
+
     </body>
 </html>
